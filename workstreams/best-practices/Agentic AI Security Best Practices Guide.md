@@ -150,7 +150,7 @@ Tier 4 triggers automatically for any external network request regardless of the
 
 ## 6. Post-Incident Forensics
 
-**The failure pattern.** Most production deployments capture operational telemetry (latency, error rates, token counts) and call it an audit trail. It is not one. [IBM research places average breach identification at 204 days](https://acsense.com/blog/ibm-2024-cost-of-data-breach-report/). An agent that misbehaved in October may not surface until April, and if the log lacks a verifiable record of every action, delegation, and approval, the investigation has no evidentiary foundation to reconstruct from. This gap now carries statutory weight: EU AI Act Article 12 logging obligations apply to high-risk systems from August 2, 2026, with penalties up to EUR 15M or 3% of global turnover.
+**The failure pattern.** Most production deployments capture operational telemetry (latency, error rates, token counts) and call it an audit trail. It is not one. [IBM research places average breach identification at 204 days](https://acsense.com/blog/ibm-2024-cost-of-data-breach-report/). An agent that misbehaved in October may not surface until April, and if the log lacks a verifiable record of every action, delegation, and approval, the investigation has no evidentiary foundation to reconstruct from. This gap now carries statutory weight: EU AI Act Article 12 record-keeping is a requirement for Annex III high-risk systems, applicable from [2 December 2027 under the AI Omnibus timeline](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force); non-compliance is enforced through the provider and deployer obligations (Articles 16 and 26), which carry administrative fines up to EUR 15M or 3% of worldwide annual turnover.
 
 **The control: seven event categories**, most deployments today capture roughly three of them:
 
@@ -229,7 +229,8 @@ Maturity: GA (production-ready), Beta (publicly released with caveats), Experime
 | A2A Protocol Specification, Agent Discovery and Enterprise Implementation (a2aproject/A2A, docs/topics/agent-discovery.md and enterprise-ready.md) | Open Standard | Section 3.2.3 |
 | MCP Specification 2026-07-28, Base Protocol, General fields (modelcontextprotocol.io/specification/2026-07-28/basic) | Open Standard | Section 6 |
 | Palo Alto Networks Unit 42, MCP attack vectors research | Vendor Report | Section 3.1 |
-| NIST SP 800-53 Rev. 5 (AU-9, AU-10, AU-5); EU AI Act Article 12 (Regulation (EU) 2024/1689) | Standards Body / Regulatory Text | Section 6 |
+| NIST SP 800-53 Rev. 5 (AU-9, AU-10, AU-5) | Standards Body | Section 6 |
+| EU AI Act Article 12 (Regulation (EU) 2024/1689); AI Omnibus, in force 27 July 2026 (European Commission) | Regulatory Text | Section 6 |
 | Anthropic, "Reasoning Models Don't Always Say What They Think" (2025); Anthropic Petri (2025) | Vendor Research | Section 5 |
 | Cemri et al., MAST, arXiv:2503.13657 (2025) | Peer-Reviewed Research | Section 4 (orchestration guardrails) |
 | IBM Cost of a Data Breach Report 2025 | Analyst Report | Section 6 |
