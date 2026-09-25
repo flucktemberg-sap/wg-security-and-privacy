@@ -240,8 +240,8 @@ Maturity: GA (production-ready), Beta (publicly released with caveats), Experime
 
 | Acronym | Expansion |
 |---|---|
-| AAIF | Agentic AI Infrastructure Foundation |
-| ASI | Agentic Security Intelligence |
+| AAIF | Agentic AI Foundation |
+| ASI | Agentic Security Initiative (OWASP) |
 | ATLAS | Adversarial Threat Landscape for Artificial-Intelligence Systems (MITRE) |
 | BSL | Business Source License |
 | CNCF | Cloud Native Computing Foundation |
@@ -256,7 +256,7 @@ Maturity: GA (production-ready), Beta (publicly released with caveats), Experime
 | HSM | Hardware Security Module |
 | IAM | Identity and Access Management |
 | IRSA | IAM Roles for Service Accounts (AWS) |
-| MAST | Multi-Agent Security Testing |
+| MAST | Multi-Agent System Failure Taxonomy |
 | MCP | Model Context Protocol |
 | OIDC | OpenID Connect |
 | OWASP | Open Worldwide Application Security Project |
